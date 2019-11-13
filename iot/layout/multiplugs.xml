@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imageView41"
+                android:layout_width="100dp"
+                android:layout_height="151dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="40dp"
+
+                app:srcCompat="@drawable/mp"
+                tools:layout_editor_absoluteX="283dp"
+                tools:layout_editor_absoluteY="35dp" />
+
+            <ImageView
+                android:id="@+id/imageView42"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="90dp"
+                android:layout_marginRight="40dp"
+                app:srcCompat="@drawable/mp1"
+                tools:layout_editor_absoluteX="115dp"
+                tools:layout_editor_absoluteY="92dp" />
+
+        </TableRow>
+
+        <TableRow>
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/mp2"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="281dp" />
+
+        <Switch
+            android:id="@+id/switch17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="95dp"
+            android:text="Switch"
+            tools:layout_editor_absoluteX="268dp"
+            tools:layout_editor_absoluteY="298dp" />
+
+        </TableRow>
+
+        <TableRow>
+    <ImageView
+        android:id="@+id/imageView44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/mp3"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="425dp" />
+
+        <Switch
+            android:id="@+id/switch18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="55dp"
+            android:text="Switch"
+            tools:layout_editor_absoluteX="268dp"
+            tools:layout_editor_absoluteY="447dp" />
+
+        </TableRow>
+
+
+        <TableRow>
+    <ImageView
+        android:id="@+id/imageView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="40dp"
+        app:srcCompat="@drawable/mp4"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="574dp" />
+
+
+    <Switch
+        android:id="@+id/switch19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="55dp"
+        android:text="Switch"
+        tools:layout_editor_absoluteX="268dp"
+        tools:layout_editor_absoluteY="593dp" />
+
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
